@@ -30,6 +30,7 @@
 
 - (IBAction)processButtonTapped:(id)sender
 {
+  self.processButton.enabled = NO;
   NSArray *palindromes = [self.textInput.text getArrayOfPalindromes];
   
   if ([palindromes count]) {
