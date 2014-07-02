@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSString+TestForPalindrome.h"
 
 @interface PalindrominatorTests : XCTestCase
 
@@ -26,9 +27,18 @@
   [super tearDown];
 }
 
-- (void)testExample
+- (void)testEnteringStringWithNoPalindromesReturnsEmptyArray
 {
-  XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+  NSString *string = @"123456789";
+  NSArray *palindromes = [string getArrayOfPalindromes];
+  XCTAssert([palindromes count] == 0, @"Expected empty array.");
+}
+
+- (void)testEnteringStringWithPalindromesReturnsPalindromes
+{
+  NSString *string = @"amanaplanacanalpanama";
+  NSArray *palindromes = [string getArrayOfPalindromes];
+  XCTAssert([palindromes count] == 12, @"Expected array of 12 palindromes.");
 }
 
 @end
