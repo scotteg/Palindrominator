@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "NSString+TestForPalindrome.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *textInput;
 @property (weak, nonatomic) IBOutlet UIButton *processButton;
 @property (weak, nonatomic) IBOutlet UITextView *palindromesTextView;
@@ -46,6 +46,20 @@
 - (IBAction)hideKeyboard:(id)sender
 {
   [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil];
+}
+
+#pragma mark - UITextFieldDelegate
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+  if ([self.palindromesTextView.text length]) {
+    [UIView animateWithDuration:0.5 animations:^{
+      self.palindromesTextView.alpha = 0.0f;
+    } completion:^(BOOL finished) {
+      self.palindromesTextView.text = nil;
+      self.palindromesTextView.alpha = 1.0f;
+    }];
+  }
 }
 
 @end

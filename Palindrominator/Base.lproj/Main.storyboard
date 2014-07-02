@@ -23,6 +23,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <action selector="textFieldDidChange:" destination="vXZ-lx-hvc" eventType="editingChanged" id="hBR-uF-wOr"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="YNS-F2-KkY"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXf-x2-ABL">
