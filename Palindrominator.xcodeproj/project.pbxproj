@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23BA470196387710053853E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23BA46F196387710053853E /* Foundation.framework */; };
+		D23BA472196387710053853E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23BA471196387710053853E /* CoreGraphics.framework */; };
+		D23BA474196387710053853E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23BA473196387710053853E /* UIKit.framework */; };
+		D23BA47A196387710053853E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23BA478196387710053853E /* InfoPlist.strings */; };
+		D23BA47C196387710053853E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D23BA47B196387710053853E /* main.m */; };
+		D23BA480196387710053853E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23BA47F196387710053853E /* AppDelegate.m */; };
+		D23BA483196387710053853E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23BA481196387710053853E /* Main.storyboard */; };
+		D23BA486196387710053853E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23BA485196387710053853E /* ViewController.m */; };
+		D23BA488196387710053853E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23BA487196387710053853E /* Images.xcassets */; };
+		D23BA48F196387710053853E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23BA48E196387710053853E /* XCTest.framework */; };
+		D23BA490196387710053853E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23BA46F196387710053853E /* Foundation.framework */; };
+		D23BA491196387710053853E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23BA473196387710053853E /* UIKit.framework */; };
+		D23BA499196387710053853E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23BA497196387710053853E /* InfoPlist.strings */; };
+		D23BA49B196387710053853E /* PalindrominatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D23BA49A196387710053853E /* PalindrominatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23BA492196387710053853E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23BA464196387710053853E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23BA46B196387710053853E;
+			remoteInfo = Palindrominator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D23BA46C196387710053853E /* Palindrominator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palindrominator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23BA46F196387710053853E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D23BA471196387710053853E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D23BA473196387710053853E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D23BA477196387710053853E /* Palindrominator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Palindrominator-Info.plist"; sourceTree = "<group>"; };
+		D23BA479196387710053853E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23BA47B196387710053853E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D23BA47D196387710053853E /* Palindrominator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Palindrominator-Prefix.pch"; sourceTree = "<group>"; };
+		D23BA47E196387710053853E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D23BA47F196387710053853E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D23BA482196387710053853E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D23BA484196387710053853E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D23BA485196387710053853E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D23BA487196387710053853E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D23BA48D196387710053853E /* PalindrominatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalindrominatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23BA48E196387710053853E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D23BA496196387710053853E /* PalindrominatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PalindrominatorTests-Info.plist"; sourceTree = "<group>"; };
+		D23BA498196387710053853E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23BA49A196387710053853E /* PalindrominatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindrominatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23BA469196387710053853E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23BA472196387710053853E /* CoreGraphics.framework in Frameworks */,
+				D23BA474196387710053853E /* UIKit.framework in Frameworks */,
+				D23BA470196387710053853E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23BA48A196387710053853E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23BA48F196387710053853E /* XCTest.framework in Frameworks */,
+				D23BA491196387710053853E /* UIKit.framework in Frameworks */,
+				D23BA490196387710053853E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D23BA463196387710053853E = {
+			isa = PBXGroup;
+			children = (
+				D23BA475196387710053853E /* Palindrominator */,
+				D23BA494196387710053853E /* PalindrominatorTests */,
+				D23BA46E196387710053853E /* Frameworks */,
+				D23BA46D196387710053853E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23BA46D196387710053853E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23BA46C196387710053853E /* Palindrominator.app */,
+				D23BA48D196387710053853E /* PalindrominatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23BA46E196387710053853E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23BA46F196387710053853E /* Foundation.framework */,
+				D23BA471196387710053853E /* CoreGraphics.framework */,
+				D23BA473196387710053853E /* UIKit.framework */,
+				D23BA48E196387710053853E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23BA475196387710053853E /* Palindrominator */ = {
+			isa = PBXGroup;
+			children = (
+				D23BA47E196387710053853E /* AppDelegate.h */,
+				D23BA47F196387710053853E /* AppDelegate.m */,
+				D23BA481196387710053853E /* Main.storyboard */,
+				D23BA484196387710053853E /* ViewController.h */,
+				D23BA485196387710053853E /* ViewController.m */,
+				D23BA487196387710053853E /* Images.xcassets */,
+				D23BA476196387710053853E /* Supporting Files */,
+			);
+			path = Palindrominator;
+			sourceTree = "<group>";
+		};
+		D23BA476196387710053853E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23BA477196387710053853E /* Palindrominator-Info.plist */,
+				D23BA478196387710053853E /* InfoPlist.strings */,
+				D23BA47B196387710053853E /* main.m */,
+				D23BA47D196387710053853E /* Palindrominator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23BA494196387710053853E /* PalindrominatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D23BA49A196387710053853E /* PalindrominatorTests.m */,
+				D23BA495196387710053853E /* Supporting Files */,
+			);
+			path = PalindrominatorTests;
+			sourceTree = "<group>";
+		};
+		D23BA495196387710053853E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23BA496196387710053853E /* PalindrominatorTests-Info.plist */,
+				D23BA497196387710053853E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23BA46B196387710053853E /* Palindrominator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23BA49E196387710053853E /* Build configuration list for PBXNativeTarget "Palindrominator" */;
+			buildPhases = (
+				D23BA468196387710053853E /* Sources */,
+				D23BA469196387710053853E /* Frameworks */,
+				D23BA46A196387710053853E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palindrominator;
+			productName = Palindrominator;
+			productReference = D23BA46C196387710053853E /* Palindrominator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23BA48C196387710053853E /* PalindrominatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23BA4A1196387710053853E /* Build configuration list for PBXNativeTarget "PalindrominatorTests" */;
+			buildPhases = (
+				D23BA489196387710053853E /* Sources */,
+				D23BA48A196387710053853E /* Frameworks */,
+				D23BA48B196387710053853E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23BA493196387710053853E /* PBXTargetDependency */,
+			);
+			name = PalindrominatorTests;
+			productName = PalindrominatorTests;
+			productReference = D23BA48D196387710053853E /* PalindrominatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23BA464196387710053853E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Optimac, Inc.";
+				TargetAttributes = {
+					D23BA48C196387710053853E = {
+						TestTargetID = D23BA46B196387710053853E;
+					};
+				};
+			};
+			buildConfigurationList = D23BA467196387710053853E /* Build configuration list for PBXProject "Palindrominator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D23BA463196387710053853E;
+			productRefGroup = D23BA46D196387710053853E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23BA46B196387710053853E /* Palindrominator */,
+				D23BA48C196387710053853E /* PalindrominatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23BA46A196387710053853E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23BA488196387710053853E /* Images.xcassets in Resources */,
+				D23BA47A196387710053853E /* InfoPlist.strings in Resources */,
+				D23BA483196387710053853E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23BA48B196387710053853E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23BA499196387710053853E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23BA468196387710053853E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23BA486196387710053853E /* ViewController.m in Sources */,
+				D23BA480196387710053853E /* AppDelegate.m in Sources */,
+				D23BA47C196387710053853E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23BA489196387710053853E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23BA49B196387710053853E /* PalindrominatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23BA493196387710053853E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23BA46B196387710053853E /* Palindrominator */;
+			targetProxy = D23BA492196387710053853E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D23BA478196387710053853E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23BA479196387710053853E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D23BA481196387710053853E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23BA482196387710053853E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D23BA497196387710053853E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23BA498196387710053853E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D23BA49C196387710053853E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D23BA49D196387710053853E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23BA49F196387710053853E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palindrominator/Palindrominator-Prefix.pch";
+				INFOPLIST_FILE = "Palindrominator/Palindrominator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D23BA4A0196387710053853E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palindrominator/Palindrominator-Prefix.pch";
+				INFOPLIST_FILE = "Palindrominator/Palindrominator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D23BA4A2196387710053853E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Palindrominator.app/Palindrominator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palindrominator/Palindrominator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PalindrominatorTests/PalindrominatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D23BA4A3196387710053853E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Palindrominator.app/Palindrominator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palindrominator/Palindrominator-Prefix.pch";
+				INFOPLIST_FILE = "PalindrominatorTests/PalindrominatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23BA467196387710053853E /* Build configuration list for PBXProject "Palindrominator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23BA49C196387710053853E /* Debug */,
+				D23BA49D196387710053853E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23BA49E196387710053853E /* Build configuration list for PBXNativeTarget "Palindrominator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23BA49F196387710053853E /* Debug */,
+				D23BA4A0196387710053853E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D23BA4A1196387710053853E /* Build configuration list for PBXNativeTarget "PalindrominatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23BA4A2196387710053853E /* Debug */,
+				D23BA4A3196387710053853E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23BA464196387710053853E /* Project object */;
+}
